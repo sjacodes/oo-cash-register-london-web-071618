@@ -22,8 +22,8 @@ class CashRegister
     end
   end
   
-  def items
-    ALL_ITEMS << title
+  def items(item)
+    ALL_ITEMS << item
     return ALL_ITEMS
   end
   
