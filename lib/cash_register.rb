@@ -6,7 +6,7 @@ class CashRegister
     @total = 0
     @discount=discount
     
-    ALL_ITEMS << self
+    ALL_ITEMS << title
     
   end
   
