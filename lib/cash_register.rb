@@ -6,15 +6,15 @@ class CashRegister
     @total = 0
     @discount=discount
     
-    
+    @all=[]  
     
   end
-  
-  ALL_ITEMS = []
+   
+   
   
   def add_item(title, price, quantity = 1)
     @total = @total + (price*quantity)
-    ALL_ITEMS << title
+    @all << title
     
   end
   
@@ -28,7 +28,7 @@ class CashRegister
   end
   
   def items
-    ALL_ITEMS
+    @all
   end
   
 end
