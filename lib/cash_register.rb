@@ -22,7 +22,7 @@ class CashRegister
     end
   end
   
-  def items(item)
+  def items
     ALL_ITEMS << item
     return ALL_ITEMS
   end
