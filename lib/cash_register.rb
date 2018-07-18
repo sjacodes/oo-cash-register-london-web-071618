@@ -7,6 +7,8 @@ class CashRegister
     @discount=discount
   end
   
+  ALL_ITEMS = []
+  
   def add_item(title, price, quantity = 1)
     @total = @total + (price*quantity)
   end
@@ -21,7 +23,7 @@ class CashRegister
   end
   
   def items
-    self.add_item
+    ALL_ITEMS << item
   end
   
 end
