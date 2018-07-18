@@ -24,7 +24,7 @@ class CashRegister
   end
   
   def items
-    self.items
+    self.add_item
   end
   
 end
