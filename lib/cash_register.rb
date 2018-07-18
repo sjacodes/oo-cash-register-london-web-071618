@@ -26,7 +26,9 @@ class CashRegister
     end
   end
   
- 
+  def items
+    ALL_ITEMS
+  end
   
 end
 
